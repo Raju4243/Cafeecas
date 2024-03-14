@@ -1,0 +1,40 @@
+.app__content-block{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    width:70%;
+    margin: 20px 240px;
+    
+}
+.card-1,.card-2,.card-3,.card-4{
+    width:200px;
+    height:300px;
+    box-shadow: 0px 0px 9px -1px rgba(203.0200794698);
+    border-radius: 5px;
+    padding:30px;
+}
+
+svg{
+    padding: 15px;
+    color:#FFB000;
+}
+@media  screen and (max-width:600px) {
+    .app__content-block{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    width:100%;
+    margin: 20px 20px;
+    }
+    .card-1,.card-2,.card-3,.card-4{
+        width:100%;
+        height:auto;
+        box-shadow: 0px 0px 9px -1px rgba(203.0200794698);
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width:1100px){
+    .app__content-block{
+        margin-left: 30px;
+    }
+}

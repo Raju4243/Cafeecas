@@ -1,0 +1,64 @@
+.app__display{
+    width:100%;
+    height:500px;
+    background-image: url("./grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions_2829-10942.png");
+    background-repeat: no-repeat;
+    background-size: 100%  500px; 
+    
+}
+
+.app__block{
+    flex: 1;
+    width:400px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top:6rem;
+    margin-left: 2rem;
+    color:white;
+}
+.app__btn{
+    width:200px;
+    height:50px;
+    background-color: #FFB000;
+    border-radius: 5px;
+    border: none;
+    margin-left: 9rem;
+}
+.app__block h1{
+    font-size: 3rem;
+    font-family: cursive;
+}
+.back-img{
+    width:100%;
+    height:600px;
+}
+.close-btn-btn{
+    border:none;
+    background-color: black;
+    size: 40px;
+}
+@media screen and(max-width:600px) {
+    .app__btn{
+        width:70px;
+        height:auto;
+        margin-left: 20px;
+    }
+    .app__close-btn{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:400px) {
+    .app__btn{
+        width:10px;
+        height:auto;
+    }
+    .app__close-btn{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,9 @@
+.privacy__data{
+    width:80%;
+    height:auto;
+    margin-left:130px;
+}
+.privacy__data p{
+    font-weight:normal;
+    line-height: 1.9;
+}

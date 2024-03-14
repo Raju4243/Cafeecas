@@ -1,0 +1,46 @@
+.app__about{
+    width:70%;
+    height:auto;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.app__image-block{
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.img{
+    padding:20px;
+}
+.app__about-content{
+    width:50%;
+}
+.app__about-content h2{
+    font-family: cursive;
+}
+@media screen and (max-width:650px){
+    .app__about{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .app__image-block{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .app__about-content{
+        width:100%;
+        height:auto;
+    }
+}
+@media screen and (max-width:1100px){
+    .app__about{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+}
